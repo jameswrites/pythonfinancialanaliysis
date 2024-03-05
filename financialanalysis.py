@@ -22,3 +22,4 @@ plt.plot(revenues, label="Revenue")
 plt.plot(profits, label="Profit")
 plt.legend(loc="upper left")
 plt.show()
+#adding this comment for testing

@@ -20,6 +20,7 @@ profits = list(reversed([income_statement[i]['grossProfit'] for i in range (len(
 
 plt.plot(revenues, label="Revenue")
 plt.plot(profits, label="Profit")
+plt.title("AAPL Revenue and Profit")
 plt.legend(loc="upper left")
 plt.show()
 #adding this comment for testing
